@@ -1,0 +1,421 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.6295,
+                    50.1049
+                ]
+            },
+            "properties": {
+                "city": "Francfort",
+                "country": "Germany, DE",
+                "ip": "130.61.111.142",
+                "isp": "Oracle Cloud"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3387,
+                    48.8582
+                ]
+            },
+            "properties": {
+                "city": null,
+                "country": "France, FR",
+                "ip": "163.172.139.143",
+                "isp": "Scaleway"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3855,
+                    48.1535
+                ]
+            },
+            "properties": {
+                "city": "Vienna",
+                "country": "Austria, AT",
+                "ip": "178.115.69.102",
+                "isp": "Hutchison Drei Austria GmbH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3855,
+                    48.1535
+                ]
+            },
+            "properties": {
+                "city": "Vienna",
+                "country": "Austria, AT",
+                "ip": "178.165.187.159",
+                "isp": "Hutchison Drei Austria GmbH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.7989,
+                    51.2459
+                ]
+            },
+            "properties": {
+                "city": "D\u00fcsseldorf",
+                "country": "Germany, DE",
+                "ip": "2.243.23.36",
+                "isp": "O2 Deutschland"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5526,
+                    52.4803
+                ]
+            },
+            "properties": {
+                "city": "Gifhorn",
+                "country": "Germany, DE",
+                "ip": "31.16.137.119",
+                "isp": "Vodafone Germany"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5548,
+                    52.2435
+                ]
+            },
+            "properties": {
+                "city": "Braunschweig",
+                "country": "Germany, DE",
+                "ip": "31.18.248.191",
+                "isp": "Vodafone Germany"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7793,
+                    52.4295
+                ]
+            },
+            "properties": {
+                "city": "Wolfsburg",
+                "country": "Germany, DE",
+                "ip": "31.18.248.232",
+                "isp": "Vodafone Germany"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.996,
+                    53.5544
+                ]
+            },
+            "properties": {
+                "city": "Hamburg",
+                "country": "Germany, DE",
+                "ip": "77.1.226.72",
+                "isp": "O2 Deutschland"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3855,
+                    48.1535
+                ]
+            },
+            "properties": {
+                "city": "Vienna",
+                "country": "Austria, AT",
+                "ip": "77.119.223.101",
+                "isp": "Hutchison Drei Austria GmbH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5526,
+                    52.4803
+                ]
+            },
+            "properties": {
+                "city": "Gifhorn",
+                "country": "Germany, DE",
+                "ip": "77.23.170.118",
+                "isp": "Vodafone Germany"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9781,
+                    53.5494
+                ]
+            },
+            "properties": {
+                "city": "Hamburg",
+                "country": "Germany, DE",
+                "ip": "77.3.84.122",
+                "isp": "O2 Deutschland"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5526,
+                    52.4803
+                ]
+            },
+            "properties": {
+                "city": "Gifhorn",
+                "country": "Germany, DE",
+                "ip": "79.236.53.41",
+                "isp": "Deutsche Telekom AG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6243,
+                    48.1243
+                ]
+            },
+            "properties": {
+                "city": "Munich",
+                "country": "Germany, DE",
+                "ip": "82.207.255.245",
+                "isp": "Versatel Deutschland"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5658,
+                    48.1336
+                ]
+            },
+            "properties": {
+                "city": "Munich",
+                "country": "Germany, DE",
+                "ip": "87.123.247.162",
+                "isp": "Versatel Deutschland"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5855,
+                    52.28
+                ]
+            },
+            "properties": {
+                "city": "Braunschweig",
+                "country": "Germany, DE",
+                "ip": "88.66.252.95",
+                "isp": "Vodafone Germany"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3944,
+                    48.217
+                ]
+            },
+            "properties": {
+                "city": "Vienna",
+                "country": "Austria, AT",
+                "ip": "91.141.52.123",
+                "isp": "Hutchison Drei Austria GmbH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3855,
+                    48.1535
+                ]
+            },
+            "properties": {
+                "city": "Vienna",
+                "country": "Austria, AT",
+                "ip": "91.141.59.90",
+                "isp": "Hutchison Drei Austria GmbH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0224,
+                    51.4719
+                ]
+            },
+            "properties": {
+                "city": "Essen",
+                "country": "Germany, DE",
+                "ip": "93.135.177.7",
+                "isp": "O2 Deutschland"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.0574,
+                    51.8937
+                ]
+            },
+            "properties": {
+                "city": "Halberstadt",
+                "country": "Germany, DE",
+                "ip": "93.210.156.26",
+                "isp": "Deutsche Telekom AG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.0574,
+                    51.8937
+                ]
+            },
+            "properties": {
+                "city": "Halberstadt",
+                "country": "Germany, DE",
+                "ip": "93.210.159.99",
+                "isp": "Deutsche Telekom AG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5526,
+                    52.4803
+                ]
+            },
+            "properties": {
+                "city": "Gifhorn",
+                "country": "Germany, DE",
+                "ip": "93.238.178.22",
+                "isp": "Deutsche Telekom AG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9806,
+                    53.5325
+                ]
+            },
+            "properties": {
+                "city": "Hamburg",
+                "country": "Germany, DE",
+                "ip": "95.116.146.234",
+                "isp": "O2 Deutschland"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9739,
+                    53.5651
+                ]
+            },
+            "properties": {
+                "city": "Hamburg",
+                "country": "Germany, DE",
+                "ip": "95.116.97.251",
+                "isp": "O2 Deutschland"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0235,
+                    53.0177
+                ]
+            },
+            "properties": {
+                "city": "Achim",
+                "country": "Germany, DE",
+                "ip": "95.33.109.11",
+                "isp": "EWE-Tel GmbH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.7183,
+                    52.3709
+                ]
+            },
+            "properties": {
+                "city": "Hanover",
+                "country": "Germany, DE",
+                "ip": "95.90.190.41",
+                "isp": "Vodafone Germany"
+            }
+        }
+    ]
+}
