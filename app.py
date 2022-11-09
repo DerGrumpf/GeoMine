@@ -9,7 +9,8 @@ app = Flask(__name__)
 main_server = Tag(
     ip="130.61.111.142",
     isp="Oracle Cloud",
-    city="60310 Frankfurt am Main",
+    city="Frankfurt am Main",
+    plz=60310,
     country="Germany, DE",
     coordinates=(
       50.10490,
@@ -74,6 +75,7 @@ def get_client_marker(tag):
             color='green' if tag.is_alive else 'red',
             )
 
+    print(tag)
     client = folium.Marker(
             location=tag.coordinates,
             popup=popup,
