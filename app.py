@@ -21,6 +21,7 @@ main_server = Tag(
 
 tooltip = "Klicke für mehr Infos"
 
+
 def get_map():
     map = folium.Map(
         location=[51, 11],
@@ -113,6 +114,8 @@ def get_client_data():
         for d in data:
             yield Tag.from_dict(d)
 
+plz = {d.plz for d in get_client_data()}
+
 @app.route('/')
 def index():
     map = get_map()
@@ -142,13 +145,17 @@ def index():
     return map._repr_html_()
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    #app.run(debug=True)
     
-    import sys
-    sys.exit()
-    plz = list()
-    for d in get_client_data():
-        plz.append(d.city[0:5])
-    plz = set(plz)
+    import sys, pprint
     print(plz)
+
+    with open('postleitzahlen.topojson', 'r') as f:
+        data = json.load(f)
+        geos = data['objects']['postleitzahlen']['geometries']
+        for g in geos:
+            p = g['properties']['postcode']
+            if p in plz:
+                print(g)
+
 

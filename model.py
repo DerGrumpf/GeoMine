@@ -7,7 +7,7 @@ class Tag:
 	ip: IPv4Address = field(default_factory=IPv4Address)
 	isp: str = field(default_factory=str)
 	city: str = field(default_factory=str)
-	plz: str = field(default_factory=str)
+	plz: int = field(default_factory=int)
 	country: str = field(default_factory=str)
 	coordinates: tuple[float, float] = ()
 	hops: int = 1
@@ -25,6 +25,7 @@ class Tag:
 			t.ip,
 			t.isp,
 			t.city,
+			t.plz,
 			t.country,
 			t.coordinates,
 			t.hops,
