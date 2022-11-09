@@ -22,15 +22,15 @@ class Tag:
 		t = Tag(**data)
 		trace = [Tag.from_dict(tra) for tra in t.trace]
 		return Tag(
-			t.ip,
-			t.isp,
-			t.city,
-			t.plz,
-			t.country,
-			t.coordinates,
-			t.hops,
-			t.is_alive,
-			trace
+			ip=t.ip,
+			isp=t.isp,
+			city=t.city,
+			plz=t.plz,
+			country=t.country,
+			coordinates=t.coordinates,
+			hops=t.hops,
+			is_alive=t.is_alive,
+			trace=trace
 			)
 
 
