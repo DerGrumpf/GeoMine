@@ -85,14 +85,15 @@ def tag_factory(ip, is_alive, hops, trace):
 	geoip = lookup(ip)
 	if type(geoip) is dict: return 
 	return Tag(
-		ip= ip,
-		isp= geoip.isp,
-		city= geoip.zip + ' ' + geoip.city,
-		country= geoip.country + ', ' + geoip.countryCode,
-		coordinates= (geoip.lat, geoip.lon),
-		hops= hops,
-		is_alive= is_alive,
-		trace= trace
+		ip=ip,
+		isp=geoip.isp,
+		city=geoip.city,
+		plz=geoip.zip,
+		country=geoip.country + ', ' + geoip.countryCode,
+		coordinates=(geoip.lat, geoip.lon),
+		hops=hops,
+		is_alive=is_alive,
+		trace=trace
 		)
 
 def get_data(ip):
