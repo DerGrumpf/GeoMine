@@ -143,3 +143,12 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
+    import sys
+    sys.exit()
+    plz = list()
+    for d in get_client_data():
+        plz.append(d.city[0:5])
+    plz = set(plz)
+    print(plz)
+
